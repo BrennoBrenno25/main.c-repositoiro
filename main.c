@@ -7,7 +7,9 @@
 /*
     INTEGRANTES
     Brenno Alves Souza RM 566066
+    Casos 3 e 4
     Victor Bagio Gusto RM 566032
+    Casos 1 e 2
  */
 
 int main(void) {
