@@ -113,16 +113,16 @@ int main(void) {
             break;
         }
         case '4': {
-            char str1[100], str2[100];
+            char str1[101], str2[101];
 
-            printf("Digite a primeira string (até 99 caracteres):\n");
-            if (scanf("%99s", str1) != 1) {
+            printf("Digite a primeira string (até 100 caracteres):\n");
+            if (scanf("%100s", str1) != 1) {
                 printf("Entrada inválida para a primeira string. Saindo.\n");
                 return 1;
             }
 
-            printf("Digite a segunda string (até 99 caracteres):\n");
-            if (scanf("%99s", str2) != 1) {
+            printf("Digite a segunda string (até 100 caracteres):\n");
+            if (scanf("%100s", str2) != 1) {
                 printf("Entrada inválida para a segunda string. Saindo.\n");
                 return 1;
             }
